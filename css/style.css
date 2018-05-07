@@ -1,0 +1,242 @@
+/* CSS grid area scaffolding provided by Erin Brown :)
+  http://github.com/umiami-web-design/grid-templates */
+
+/* Background patterns from Toptal Subtle Patterns */
+
+
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans+Condensed:300|Playfair+Display');
+
+
+.background {
+  background-image: url("../images/green_cup.png");
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  grid-gap: 10px;
+  grid-template-areas:
+  "header"
+  "main"
+  "footer";
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+
+.title {
+  max-width: 960px;
+  margin: auto;
+  padding-left: 40px;
+
+
+}
+
+header {
+  grid-area: header;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 28px;
+  box-shadow: 2px 2px 7px #111111;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+
+
+.headphoto {
+  background-image: url('../images/cork-wallet.png');
+}
+
+
+main {
+  grid-area: main;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  display: grid;
+  margin-right: 20px;
+  grid-template-columns: repeat(1, 2fr);
+  grid-gap: 50px;
+  grid-template-areas:
+  "sidebar content content"
+  "footer footer footer"
+}
+
+
+main h3,
+main h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+main h2 {
+  font-size: 26px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+main h3 {
+  font-size: 22px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+}
+
+.content {
+  grid-area: content;
+  margin-top: 21px;
+}
+
+
+.leftspace {
+  grid-area: leftspace;
+}
+
+
+
+footer {
+  grid-area: footer;
+  display: grid;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  grid-gap: 50px;
+  grid-template-areas:
+  "leftspace footer footer"; }
+
+  .portrait {
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+a:link,
+a:link,
+a:visited,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover,
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:active,
+a:active {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+nav {
+  grid-area: sidebar;
+  margin-top: 4px;
+}
+
+footer p {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.sidebar p {
+  margin-bottom: 15px;
+  margin-left: 20px;
+  padding: 10px;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 28px;
+  box-shadow: 2px 2px 7px #111111;
+  background-image: url('../images/cork-wallet.png');
+}
+
+.content a:hover {
+  opacity: 0.6;
+}
+
+#concertpic img {
+  filter: grayscale(80%);
+  display: block;
+  margin: 0px auto;
+}
+
+.concertcaption {
+  margin-top: 5px;
+}
+
+#concertpic p:first-child {
+  margin-top: 8px;
+}
+
+#concertpic img:hover {
+  filter: none;
+}
+
+#concertpic h3 {
+  margin-bottom: 0;
+}
+
+#concertpic article {
+  margin-bottom: 60px;
+}
+
+#travelphotos h2:first-child {
+  margin-top: 5px;
+}
+
+
+
+#travelphotos  img {
+    display: block;
+    margin: 0 auto;
+    border: 0.5px solid #ccc;
+  }
+
+.travelpic {
+  margin-bottom: 50px;
+}
+
+.travelcaption p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+#videos p {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+#videos h2 {
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#frontpage p {
+  margin-top: 0px;
+  padding-top: 3px;
+}
+
+#contact p {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+}
+
+#infogfx h2 {
+  margin-top: 4px;
+}
+
+#infogfx h3 {
+  margin-bottom: 0;
+}
+
+#infogfx p {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#infogfx article {
+  margin-bottom: 50px;
+}
