@@ -88,12 +88,6 @@ main h3 {
 }
 
 
-.leftspace {
-  grid-area: leftspace;
-}
-
-
-
 footer {
   grid-area: footer;
   display: grid;
@@ -156,10 +150,14 @@ footer p {
   opacity: 0.6;
 }
 
+#frontpage img {
+    border: 0.5px solid #ccc;
+}
 #concertpic img {
   filter: grayscale(80%);
   display: block;
   margin: 0px auto;
+  border: 0.5px solid #ccc;
 }
 
 .concertcaption {
