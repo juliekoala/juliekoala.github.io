@@ -102,7 +102,7 @@ footer {
   .portrait {
     float: left;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 6px;
     margin-bottom: 10px;
   }
 
@@ -128,7 +128,7 @@ a:active {
 
 nav {
   grid-area: sidebar;
-  margin-top: 4px;
+  margin-top: 0;
 }
 
 footer p {
@@ -153,6 +153,7 @@ footer p {
 #frontpage img {
     border: 0.5px solid #ccc;
 }
+
 #concertpic img {
   filter: grayscale(80%);
   display: block;
@@ -184,7 +185,9 @@ footer p {
   margin-top: 5px;
 }
 
-
+#travelphotos {
+  margin-top: 17px;
+}
 
 #travelphotos  img {
     display: block;
@@ -200,7 +203,9 @@ footer p {
   margin-bottom: 0;
   margin-top: 10px;
 }
-
+#videos {
+  margin-top: 17px;
+}
 #videos p {
   margin-bottom: 20px;
   margin-top: 0;
@@ -220,6 +225,10 @@ footer p {
   display: block;
   margin: 0 auto;
   width: 700px;
+}
+
+#infogfx {
+  margin-top: 17px;
 }
 
 #infogfx h2 {
